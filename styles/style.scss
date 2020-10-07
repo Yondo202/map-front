@@ -1,0 +1,175 @@
+$MyFontFamily: "Montserrat", sans-serif;
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+
+
+.MainMapParent{
+
+    .gm-style {
+        // img{
+        //     border: 10px solid black !important;
+        // }
+        font-family: $MyFontFamily !important;
+        .gm-style-iw-c{
+            position: absolute;
+            box-sizing: border-box;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            transform: translate(-50%,-100%);
+            background-color: white;
+            border-radius: 8px;
+            padding: 0px;
+            box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.3); 
+            transition: all 0.4s ease;
+            .gm-style-iw-d{
+                margin-right: -18px !important;
+                .windowPar{
+                    .conPar{
+                        img{
+                            width: 500px;
+                            height: 250px;
+                            object-fit: cover;
+                            outline: 1px solid rgba(255,255,255,0.3);
+                            outline-offset: -18px;
+                        }
+                        .textCont{
+                            display: flex;
+                            width: 100%;
+                            flex-direction: column;
+                            align-items: center;
+                            position: relative;
+
+                            .title{
+                                top: -25px;
+                                border-radius: 5px;
+                                background-color: rgba(255,255,255,1);
+                                position: absolute;
+                                font-size: 24px;
+                                font-weight: 600;
+                                padding: 10px 10px;
+                            }
+                            .textPar {
+                                width: 80%;
+                                margin-top: 40px;
+                                .group1 {
+                                    display: flex;
+                                    justify-content: space-around;
+                                    flex-direction: row;
+                                    padding-bottom: 10px;
+                                    margin-bottom: 10px;
+                                    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                                    .content {
+                                        font-family: "Work Sans", sans-serif;
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        width: 80%;
+                                        padding-left: 25px;
+                                        svg {
+                                            font-size: 26px;
+                                            color: #474fa0;
+                                        }
+                                        .contentChild {
+                                            display: flex;
+                                            flex-direction: column;
+                                            padding-left: 12px;
+                        
+                                            .value1 {
+                                                font-size: 14px;
+                                                color: rgba(0, 0, 0, 0.6);
+                                            }
+                                            .value {
+                                                line-height: 16px;
+                                                font-size: 15px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                    }
+                                }
+                                .DescPAr {
+                                    padding-left: 30px;
+                                    width: 90%;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                        .textPar {
+                            
+                            .group1 {
+                                display: flex;
+                                justify-content: space-around;
+                                flex-direction: row;
+                                padding-bottom: 10px;
+                                margin-bottom: 10px;
+                                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                                .content {
+                                    font-family: "Work Sans", sans-serif;
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    width: 80%;
+                                    padding-left: 25px;
+                                    svg {
+                                        font-size: 26px;
+                                        color: #474fa0;
+                                    }
+                                    .contentChild {
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding-left: 12px;
+                    
+                                        .value1 {
+                                            font-size: 14px;
+                                            color: rgba(0, 0, 0, 0.6);
+                                        }
+                                        .value {
+                                            line-height: 16px;
+                                            font-size: 15px;
+                                            font-weight: 600;
+                                        }
+                                    }
+                                }
+                            }
+                            .DescPAr {
+                                padding-left: 30px;
+                                width: 90%;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .gm-ui-hover-effect{
+                // display: none !important;
+                width: 40px !important;
+                height: 40px !important;
+                background: white !important;
+                display: block;
+                border: 0px;
+                margin: 0px;
+                padding: 0px;
+                position: absolute;
+                cursor: pointer;
+                user-select: none;
+                top: 0;
+                right: 0;
+                img{
+                    pointer-events: none;
+                    display: block;
+                    width: 100% !important;
+                    height: 100% !important;
+                    margin: 0px !important;
+                    margin-top: 3px !important;
+                    margin-left: -3px !important;
+                }
+            }
+        }
+    }
+}
